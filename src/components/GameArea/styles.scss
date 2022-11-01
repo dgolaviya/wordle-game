@@ -1,0 +1,18 @@
+.game-area {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  .board-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .success-message {
+    color: #6AAA64;
+  }
+  .try-again-message {
+    color: red;
+  }
+}

@@ -1,0 +1,10 @@
+.game-board-cell {
+    font-size: 3rem;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
